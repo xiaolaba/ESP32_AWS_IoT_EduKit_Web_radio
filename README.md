@@ -2,6 +2,10 @@
 fork https://github.com/bwbguard/M5Stack-Core2-MediaPlayer, and slightly modified to suit AWS Core2.   
 
 
+![ESP32_AWS_IoT_EduKit_Web_radio.jpg](ESP32_AWS_IoT_EduKit_Web_radio.jpg)
+
+
+
 add AWS Core 2 support, change wifi loging, credential to separate header file
 
 ```
