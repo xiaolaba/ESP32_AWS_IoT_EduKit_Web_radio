@@ -11,6 +11,14 @@ This complete code & fork https://github.com/bwbguard/M5Stack-Core2-MediaPlayer,
 testing https://youtu.be/3tfJUtJVph0   
 
 
+### the design, bad or good ?! screws but screwed up.
+ensure to buy screws if you want proto/add-on, the selling did not tell or bundling before this date. marketing would be alot of room for improvement.  :)
+![ESP32_AWS_IoT_EduKit_screw_screwed.jpg](ESP32_AWS_IoT_EduKit_screw_screwed.jpg)  
+
+
+
+
+
 
 add AWS Core 2 support, change wifi login credential to separate header file
 
