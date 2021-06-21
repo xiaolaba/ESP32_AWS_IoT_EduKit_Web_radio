@@ -2,6 +2,37 @@
 fork https://github.com/bwbguard/M5Stack-Core2-MediaPlayer, and slightly modified to suit AWS Core2.   
 
 
+add AWS Core 2 support, change wifi loging, credential to separate header file
+
+```
+
+/*
+ * test for AWS CORE2
+ * install FastLED, https://github.com/FastLED/FastLED/issues/373, WS2812 and SK6812 (of CORE2 FOR AWS) are equlivent
+ * install M5Core2, https://github.com/m5stack/M5Core2 
+ * via Arduino Library manager, will do.
+ * 2021-06-21, test ok, xiaolaba
+ * 
+ */
+
+// install https://github.com/FastLED/FastLED/issues/373, WS2812 and SK6812 are equlivent
+#include "FastLED.h"
+#include <ArduinoECCX08.h>
+
+#define LEDS_PIN 25
+#define LEDS_NUM 10
+CRGB ledsBuff[LEDS_NUM];
+
+ECCX08Class myECCX08(Wire1, 0x35);
+
+// Enter your WiFi, Station, button settings here:
+#include "xiaolabaWIFI.h";
+//const char *SSID = "ENTER_SSID_HERE";
+//const char *PASSWORD = "ENTER_WIFI_PASSWORD_HERE";
+```
+
+
+
 add Asia radios stations for testing, no CHT font displyesd, terminal debug string is ok, but not LCD  
 ```
 const int stations = 12;// Change Number here if you add feeds!
