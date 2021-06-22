@@ -3,6 +3,7 @@
 web radio for (ESP32) AWS IoT EduKit, it is 99% identical as m5stack Core2. see this https://github.com/xiaolaba/ESP32_AWS_IoT_EduKit_quick_test.
 
 This complete code & fork https://github.com/bwbguard/M5Stack-Core2-MediaPlayer, and slightly modified to suit AWS Core2.   
+my fork, no update because did not know how to git pull/push, https://github.com/xiaolaba/ESP32_AWS_IoT_EduKit_Web_radio  
 
 
 ![ESP32_AWS_IoT_EduKit_Web_radio.jpg](ESP32_AWS_IoT_EduKit_Web_radio.jpg)
