@@ -1,4 +1,4 @@
-# ESP32 AWS IoT EduKit Web radio  
+# ESP32 AWS IoT EduKit Web radio, Arduino coding   
 
 web radio for (ESP32) AWS IoT EduKit, it is 99% identical as m5stack Core2. see this https://github.com/xiaolaba/ESP32_AWS_IoT_EduKit_quick_test.
 
